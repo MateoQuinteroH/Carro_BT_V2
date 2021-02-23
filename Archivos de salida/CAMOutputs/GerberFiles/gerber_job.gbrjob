@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-02-14T23:51:39Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Carro_BT_V2"
+        },
+        "Owner": "mateo quintero hernandez <mateoq9512@gmail.com>",
+        "Size": {
+            "X": 58,
+            "Y": 100
+        }
+    }
+}
