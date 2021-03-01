@@ -59,13 +59,13 @@
 </layers>
 <board>
 <plain>
-<wire x1="21" y1="-1" x2="78" y2="-1" width="0" layer="20"/>
+<wire x1="20" y1="-2" x2="78" y2="-1" width="0" layer="20"/>
 <wire x1="78" y1="-1" x2="78" y2="98" width="0" layer="20"/>
-<wire x1="78" y1="98" x2="21" y2="98" width="0" layer="20"/>
-<wire x1="21" y1="98" x2="21" y2="-1" width="0" layer="20"/>
-<text x="65" y="16" size="1.778" layer="21">HC05</text>
+<wire x1="78" y1="98" x2="20" y2="97" width="0" layer="20"/>
+<wire x1="20" y1="97" x2="20" y2="-2" width="0" layer="20"/>
+<text x="66" y="16" size="1.778" layer="21">HC05</text>
 <text x="32" y="15" size="1.778" layer="21" rot="R90">L298N</text>
-<text x="32" y="34" size="1.778" layer="21" rot="R90">5v</text>
+<text x="32" y="33" size="1.778" layer="21" rot="R90">5v</text>
 <text x="39" y="38" size="1.778" layer="21" rot="R270">GND</text>
 <text x="36" y="54" size="1.778" layer="21" rot="R180">SWITCH</text>
 <text x="43" y="86" size="1.778" layer="21" rot="R90">HCSR04</text>
@@ -515,12 +515,12 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462926" x="5.53" y="96.17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="25C3832" x="5.53" y="96.17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="40" x="5.53" y="96.17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="38.55" y="40.29" size="1.016" layer="27" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="40.55" y="41.29" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="X5" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2061" package3d_urn="urn:adsk.eagle:package:8078637/1" value="" x="66.77" y="28.83" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="66.77" y="28.83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2061" x="66.77" y="28.83" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="62.96" y="21.21" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="62.96" y="26.21" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="1462922" x="66.77" y="28.83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="27C1933" x="66.77" y="28.83" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="6" x="66.77" y="28.83" size="1.778" layer="27" rot="R90" display="off"/>
@@ -534,6 +534,15 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="50" y="92" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="21" x="50" y="92" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="58.08" y="87.92" size="1.016" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" package3d_urn="urn:adsk.eagle:package:8078633/1" value="22-23-2021" x="27" y="35" smashed="yes" rot="R180">
+<attribute name="MF" value="MOLEX" x="27" y="35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="27" y="35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="29.54" y="31.19" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="OC_FARNELL" value="1462926" x="27" y="35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="27" y="35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULARITY" value="40" x="27" y="35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="29.54" y="40.08" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -583,7 +592,6 @@ design rules under a new name.</description>
 <contactref element="TB1" pad="29"/>
 <contactref element="X4" pad="1"/>
 <contactref element="X5" pad="3"/>
-<wire x1="37.28" y1="35.21" x2="37.31" y2="35.18" width="0.1524" layer="1"/>
 <wire x1="37.28" y1="35.21" x2="43.88" y2="35.21" width="0.3048" layer="1"/>
 <wire x1="43.88" y1="35.21" x2="43.91" y2="35.18" width="0.3048" layer="1"/>
 <wire x1="66.77" y1="27.56" x2="67.21" y2="28" width="0.3048" layer="1"/>
@@ -614,6 +622,10 @@ design rules under a new name.</description>
 <vertex x="77" y="0"/>
 <vertex x="77" y="97"/>
 </polygon>
+<contactref element="X3" pad="1"/>
+<wire x1="28.27" y1="35" x2="31.27" y2="32" width="0.2032" layer="1"/>
+<wire x1="34.07" y1="32" x2="37.28" y2="35.21" width="0.2032" layer="1"/>
+<wire x1="31.27" y1="32" x2="34.07" y2="32" width="0.2032" layer="1"/>
 </signal>
 <signal name="TX_HC05">
 <contactref element="TB1" pad="25"/>
@@ -653,6 +665,9 @@ design rules under a new name.</description>
 <contactref element="S1" pad="1"/>
 <wire x1="59.15" y1="42.8" x2="56.8706" y2="45.0794" width="0.3048" layer="16"/>
 <wire x1="56.8706" y1="45.0794" x2="34.5812" y2="45.0794" width="0.3048" layer="16"/>
+<contactref element="X3" pad="2"/>
+<wire x1="25.73" y1="35" x2="34.5812" y2="43.8512" width="0.2032" layer="16"/>
+<wire x1="34.5812" y1="43.8512" x2="34.5812" y2="45.0794" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="X4" pad="2"/>
